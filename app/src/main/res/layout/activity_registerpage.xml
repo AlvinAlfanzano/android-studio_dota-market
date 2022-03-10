@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterPage"
+    android:gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Page"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:padding="30dp"
+        android:textColor="@color/colorPrimaryDark" />
+    <EditText
+        android:id="@+id/etFullname"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Fullname"
+        android:padding="15dp"/>
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:padding="15dp"/>
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:padding="15dp"
+        android:inputType="textPassword"/>
+    <EditText
+        android:id="@+id/etConfirmPass"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:padding="15dp"/>
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:padding="15dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:textSize="25dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorPrimaryDark"/>
+    <RadioGroup
+        android:id="@+id/rgGander"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+    <RadioButton
+        android:id="@+id/rdMale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Male"
+        android:textSize="16sp"
+        android:layout_margin="10dp"></RadioButton>
+    <RadioButton
+        android:id="@+id/rdFemale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Female"
+        android:textSize="16sp"
+        android:layout_margin="10dp"></RadioButton>
+    </RadioGroup>
+    <CheckBox
+        android:id="@+id/cbTerm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="250dp"
+        android:text="Agree with Term"/>
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:padding="10dp"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

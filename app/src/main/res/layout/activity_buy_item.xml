@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuyItem"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item Name"/>
+    <TextView
+        android:id="@+id/tvItemStock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item Stock"/>
+    <TextView
+        android:id="@+id/tvItemPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item Price"/>
+    <Button
+        android:id="@+id/btnToSeller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seller Location"/>
+    <Button
+        android:id="@+id/btnCheckout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checkout"/>
+
+
+</LinearLayout>
